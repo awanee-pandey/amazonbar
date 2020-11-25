@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+   cursor: pointer;
+}
+
+ul,li{
+    list-style: none;
+}
+
+p{
+    font-size: 12px;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: 500;
+}
+body{
+    height:100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ------------------------------- container1 ------------------------------ */
+
+.container1{
+    width:100%;
+    background-color:#131a21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 a{
+    color:#fff;
+}
+
+.container1 img{
+    width: 97px;
+    height: 30px;
+    margin-top: 16%;
+    margin-left:10px;
+}
+
+.container1 .nav__left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container1 .nav__left a i {
+    font-size: 30px;
+}
+
+.container1 .nav__center{
+    flex-grow: 1;
+}
+
+.container1 .cart i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+/* -------------------------------- searchbar ------------------------------- */
+
+.searchBar {
+    width: 70%;
+    height: 42px;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .searchBar__dropdown {
+    width: 55px;
+    border: none;
+    outline: none;
+    height: 100%;
+    font-size: 13px;
+    padding-left: 8px;
+    background-color: #f3f3f3;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.1s;
+  }
+  
+  .searchBar__dropdown option {
+    background: #fff;
+    font-size: 15px;
+    padding-left: 0px;
+  }
+  
+  .searchBar__dropdown:hover {
+    background: #cecece;
+  }
+  
+  .searchBar__dropdown:active {
+    box-shadow: 0 0 1px 3px #ff970e;
+  }
+  
+  .seachBar__input {
+    font-size: 15px;
+    height: 100%;
+    padding: 0px 7px;
+    outline: none;
+    border: none;
+    background: #fff;
+    flex-grow: 1;
+    border-left: 1px solid #d8d0d0;
+  }
+  
+  .seachBar__btn {
+    background: #febd69;
+    height: 100%;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    transition: all 0.1s;
+  }
+  
+  .seachBar__btn ion-icon {
+    font-size: 25px;
+    color: #131921;
+  }
+  
+  .seachBar__btn:hover {
+    background: #f3a847;
+  }
+  
+  .seachBar__btn:active {
+    background: #f3a847;
+    box-shadow: 0 0 1px 3px #ff970e;
+  }
+
+  .nav__right i {
+    font-size: 12px;
+    color: #b3c1d4;
+    }
+
+    .container1 .nav__right{
+        margin-right:5px;
+    }
+/* ------------------------------- container2------------------------------ */
+.container2{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:#22303e ;
+    padding:5px;
+}
+
+.container2 a{
+    color:#fff;
+}
+/* -------------------------------- left side ------------------------------- */
+
+.nav__left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10px;
+}
+
+.address{
+    margin-left: 3px;
+}
+
+
+.container2 .nav__left i {
+    font-size: 20px;
+}
+
+/* ------------------------------- center side ------------------------------ */
+
+.nav__center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__center a{
+    margin:10px;
+    font-size: 13px;
+}
+.itemslists{
+    display: flex;
+}
+
+
+/* ------------------------------- right side ------------------------------- */
+
+.nav__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
